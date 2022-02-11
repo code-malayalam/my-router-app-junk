@@ -61,7 +61,7 @@ export default function Users() {
                 .map((item) => {
                 return (
                     <div className="users-item" key={item.id} onClick={() => {
-                        navigate(`/details/${item.id}`, {
+                        navigate(`${item.id}`, {
                             state: {
                                 data: item,
                             }
