@@ -14,22 +14,21 @@ import Remarks from './Pages/Remarks';
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <Header />
-      </div>
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="settings" element={<Settings />}/>
-        <Route path="usage" element={<Usage />}/>
-        <Route path="users">
-          <Route index element={<Users />} />
-          <Route path=":userId" element={<Details />}>
-            <Route index element={<Marks />}/>
-            <Route path="sports" element={<Sports />}/>
-            <Route path="remarks" element={<Remarks />}/>
+        <Route path="/" element={<Header />}>
+          <Route index element={<Home />} />
+          <Route path="settings" element={<Settings />}/>
+          <Route path="usage" element={<Usage />}/>
+          <Route path="users">
+            <Route path="details/:userId" element={<Details />}>
+              <Route index element={<Marks />}/>
+              <Route path="sports" element={<Sports />}/>
+              <Route path="remarks" element={<Remarks />}/>
+            </Route>
           </Route>
+          <Route path="*" element={<NotFound />}/>
         </Route>
-        <Route path="*" element={<NotFound />}/>
+        
       </Routes>
     </BrowserRouter>
   );
