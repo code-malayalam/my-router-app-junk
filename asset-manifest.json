@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-router-app-junk/static/css/main.b7eab145.chunk.css",
-    "main.js": "/my-router-app-junk/static/js/main.54cd8f99.chunk.js",
-    "main.js.map": "/my-router-app-junk/static/js/main.54cd8f99.chunk.js.map",
+    "main.js": "/my-router-app-junk/static/js/main.073cf7ee.chunk.js",
+    "main.js.map": "/my-router-app-junk/static/js/main.073cf7ee.chunk.js.map",
     "runtime-main.js": "/my-router-app-junk/static/js/runtime-main.e87b994c.js",
     "runtime-main.js.map": "/my-router-app-junk/static/js/runtime-main.e87b994c.js.map",
     "static/js/2.e3276650.chunk.js": "/my-router-app-junk/static/js/2.e3276650.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e87b994c.js",
     "static/js/2.e3276650.chunk.js",
     "static/css/main.b7eab145.chunk.css",
-    "static/js/main.54cd8f99.chunk.js"
+    "static/js/main.073cf7ee.chunk.js"
   ]
 }
